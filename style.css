@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&family=Inter:wght@700&family=Poppins:ital,wght@0,500;0,600;1,300&display=swap');
+
+body {
+    background-color: #121214;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    justify-content: center;
+}
+
+header, h1 {
+    text-align:center;
+}
+
+header {
+    margin-top: 42px;
+    margin-bottom: 73px
+}
+
+h1 {
+    margin-bottom: 61px;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    position: center;
+    flex-wrap: wrap;
+}
+
+figure {
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    border: 2px transparent solid;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    margin-right: 26px;
+    border-radius: 10px;
+}
+
+figure:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.userIcon {
+    width: 160px;
+    height: 160px;
+    transition: transform 1s ease;
+}
+
+.userIcon:hover {
+    transform: scale(1.2);
+}
+
+.username{
+    color: #9C9C9C;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.profiles {
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 206px;
+    height: 50px;
+    position: center;
+    align-items: center;
+    border: 2px solid #fff;
+    background-color: #121214;
+    color: white;
+    border-radius: 5px;    
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 116px;
+    transition: 1.5s;
+}
+
+.profiles:hover{
+    background-color: white;
+    color: #121214;
+    transition: 1.5s;
+    cursor: pointer;
+}
